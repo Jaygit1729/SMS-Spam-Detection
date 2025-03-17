@@ -1,5 +1,5 @@
 import nltk
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 import streamlit as st
 import joblib
