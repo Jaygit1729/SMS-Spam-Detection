@@ -3,7 +3,8 @@ import joblib
 import os
 import numpy as np
 import sys
-from data_preprocessing import transform_text
+from src.data_preprocessing import transform_text
+
 
 # Define paths
 
