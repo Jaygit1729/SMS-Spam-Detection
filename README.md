@@ -1,11 +1,11 @@
-About this project
+**About this project**
 
-SMS-Spam-Classifier:
+**SMS-Spam-Classifier:**
  
 
 This project involves building an SMS spam classifier using NLP and Machine Learning techniques. The classifier accurately distinguishes between spam and non-spam messages, achieving high precision and recall.
  
-About Dataset:
+**About Dataset:**
  
 
 The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains SMS messages in English of 5,574 messages, tagged as ham (legitimate) or spam. 
@@ -17,10 +17,10 @@ The files contain one message per line. Each line is composed by two columns: v1
 This corpus has been collected from free or free for research sources at the Internet.
  
 
-Methodology:
+**Methodology:**
  
 
-1. Data Ingestions and Cleaning
+**1. Data Ingestions and Cleaning**
  
 
 The SMS Spam Collection Dataset from Kaggle was used for this project.
@@ -38,7 +38,7 @@ Duplicates (403) were dropped from the dataset.
 The dataset contained no null values, ensuring data integrity.
  
 
-2. Feature Engineering and Analysis:
+**2. Feature Engineering and Analysis:**
  
 
 Three New Features has been created to find out : A)  Number of characters in each SMS B) Number of words in each SMS and C) Number of sentences in each SMS
@@ -47,7 +47,7 @@ Three New Features has been created to find out : A)  Number of characters in ea
 Statistical summaries revealed insights on message length distribution and other aspects of the data.
  
 
-3. EDA and Data Visualization
+**3. EDA and Data Visualization**
  
 
 The value counts of target categories ('ham' and 'spam') were calculated.
@@ -62,7 +62,7 @@ KDE Plot revealed the presence of skewness for number of characters and number o
 Generates a heatmap for the correlation matrix to see the relationship of features with each other.
  
 
-4. Data Preprocessing
+**4. Data Preprocessing**
  
 
 Text preprocessing techniques such as lower casing, tokenization, removing special characters, stopword removal, and stemming were applied to the messages.
@@ -74,7 +74,7 @@ Transforms the target column: 'ham' → 0, 'spam' → 1.
 Generates a word frequency scatter plot for spam or ham messages to see the frequently occuring word in a corpus.
  
 
-5. Text Vectorization Using Count Vectorization
+**5. Text Vectorization Using Count Vectorization**
  
 
 Count vectorization was performed on both the training and test sets to convert text data into numerical form.
@@ -82,7 +82,7 @@ Count vectorization was performed on both the training and test sets to convert 
 
 A total of 6708 features were generated using Count Vectorization. 
  
-6. Model Building and Evaluation
+**6. Model Building and Evaluation**
  
 
 The data was split into training and test sets in a 80:20 ratio.
@@ -94,7 +94,7 @@ Created Naive Bayes as a base model and two other model were also implemented to
 Saved the Final model and Vectorizer for future use.
  
 
-7. Model Optimization and Saving
+**7. Model Optimization and Saving**
  
 
 Performs feature selection using the chi-square test.
@@ -112,14 +112,14 @@ Selected feature set.
  
  
 
-9. Streamlit App 
+**8. Streamlit App **
  
 
 Developed a Streamlit web application to enable real-time SMS spam classification for new messages.
 
  
 
-Conclusion
+**Conclusion**
  
 
 In conclusion, the developed SMS spam classifier successfully differentiates between spam and ham messages with high accuracy and precision. The Naive Bayes Classifier emerged as the best-performing model, providing consistent results on both training and test data. This project showcases the effectiveness of NLP techniques and machine learning algorithms in tackling text classification tasks.
@@ -137,4 +137,4 @@ It rarely ever overfits the data.
 Another important advantage is that its model training and prediction times are very fast for the amount of data it can handle.
  
 
-Demo Link : 
+Demo Link : https://sms-spam-detection-ml.streamlit.app/
