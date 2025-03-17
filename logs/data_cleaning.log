@@ -1,0 +1,8 @@
+2025-03-07 11:49:16,411 - INFO - Logging setup for data cleaning successfully.
+2025-03-07 11:49:16,480 - INFO - Dropped Columns: ['Unnamed: 2', 'Unnamed: 3', 'Unnamed: 4']
+2025-03-07 11:49:16,490 - INFO - Dropped 403 duplicate rows
+2025-03-07 11:49:16,492 - INFO - Renamed column: {'v1': 'Target', 'v2': 'Text'}
+2025-03-07 11:49:16,501 - INFO - Percentage of Missing values for each feature/target:
+0.0
+0.0
+2025-03-07 11:49:16,502 - INFO - Data Cleaning Completed Successfully.

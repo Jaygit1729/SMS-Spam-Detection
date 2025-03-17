@@ -1,0 +1,50 @@
+2025-03-07 11:54:06,496 - INFO - Logging setup for model building successfully.
+2025-03-07 11:54:06,729 - INFO - Applied Count vectorization.
+2025-03-07 11:54:07,642 - INFO - Naïve Bayes | Accuracy: 0.9709 | Precision: 0.9115 | Recall: 0.8374 | F1-score: 0.8729
+2025-03-07 11:54:36,570 - INFO - Random Forest | Accuracy: 0.9729 | Precision: 0.9897 | Recall: 0.7805 | F1-score: 0.8727
+2025-03-07 11:56:33,037 - INFO - Gradient Boosting | Accuracy: 0.9671 | Precision: 0.9495 | Recall: 0.7642 | F1-score: 0.8468
+2025-03-07 11:56:33,126 - INFO - Final model (Naïve Bayes) saved as data/final_model\best_model.pkl
+2025-03-07 11:56:33,126 - INFO - Vectorizer saved as data/final_model\vectorizer.pkl
+2025-03-07 11:56:33,127 - INFO - Performance results saved as data/final_model\performance_results.pkl
+2025-03-07 12:08:52,351 - INFO - Logging setup for model building successfully.
+2025-03-07 12:08:52,539 - INFO - Applied Count vectorization.
+2025-03-07 12:08:53,374 - INFO - Naïve Bayes | Accuracy: 0.9709 | Precision: 0.9115 | Recall: 0.8374 | F1-score: 0.8729
+2025-03-07 12:09:17,767 - INFO - Random Forest | Accuracy: 0.9729 | Precision: 0.9897 | Recall: 0.7805 | F1-score: 0.8727
+2025-03-07 12:11:09,106 - INFO - Gradient Boosting | Accuracy: 0.9671 | Precision: 0.9495 | Recall: 0.7642 | F1-score: 0.8468
+2025-03-07 12:11:09,188 - INFO - Final model (Naïve Bayes) saved as data/model_building\best_model.pkl
+2025-03-07 12:11:09,189 - INFO - Vectorizer saved as data/model_building\vectorizer.pkl
+2025-03-07 12:11:09,190 - INFO - Performance results saved as data/model_building\performance_results.pkl
+2025-03-08 10:46:16,109 - INFO - Logging setup for model building successfully.
+2025-03-08 10:46:16,325 - INFO - Applied Count vectorization.
+2025-03-08 10:46:17,410 - INFO - Naïve Bayes | Train Acc: 0.9876 | Test Acc: 0.9709 | Train F1: 0.9500 | Test F1: 0.8729
+2025-03-08 10:46:43,373 - INFO - Random Forest | Train Acc: 1.0000 | Test Acc: 0.9729 | Train F1: 1.0000 | Test F1: 0.8727
+2025-03-08 10:48:35,262 - INFO - Gradient Boosting | Train Acc: 0.9755 | Test Acc: 0.9671 | Train F1: 0.8951 | Test F1: 0.8468
+2025-03-08 10:48:35,462 - INFO - Final model (Naïve Bayes) saved as data/model_building\best_model.pkl
+2025-03-08 10:48:35,463 - INFO - Vectorizer saved as data/model_building\vectorizer.pkl
+2025-03-08 10:48:35,463 - INFO - Performance results saved as data/model_building\performance_results.pkl
+2025-03-08 10:51:52,163 - INFO - Logging setup for model building successfully.
+2025-03-08 10:51:52,413 - INFO - Applied Count vectorization.
+2025-03-08 10:51:53,515 - INFO - Naïve Bayes | Train Acc: 0.9876 | Test Acc: 0.9709 | Train F1: 0.9500 | Test F1: 0.8729
+2025-03-08 10:52:18,976 - INFO - Random Forest | Train Acc: 1.0000 | Test Acc: 0.9729 | Train F1: 1.0000 | Test F1: 0.8727
+2025-03-08 10:54:13,636 - INFO - Gradient Boosting | Train Acc: 0.9755 | Test Acc: 0.9671 | Train F1: 0.8951 | Test F1: 0.8468
+2025-03-16 20:25:04,461 - INFO - Logging setup for model building successfully.
+2025-03-16 20:25:04,720 - INFO - Applied Count vectorization.
+2025-03-16 20:25:05,771 - INFO - Naïve Bayes | Accuracy: 0.9876 | Precision: 0.9878 | Recall: 0.9151 | F1-score: 0.9500
+2025-03-16 20:25:40,832 - INFO - Random Forest | Accuracy: 1.0000 | Precision: 1.0000 | Recall: 1.0000 | F1-score: 1.0000
+2025-03-16 20:28:58,729 - INFO - Gradient Boosting | Accuracy: 0.9755 | Precision: 0.9954 | Recall: 0.8132 | F1-score: 0.8951
+2025-03-16 20:30:59,586 - INFO - Logging setup for model building successfully.
+2025-03-16 20:30:59,816 - INFO - Applied Count vectorization.
+2025-03-16 20:31:00,978 - INFO - Naïve Bayes | Train Acc: 0.9876 | Test Acc: 0.9709 | Train F1: 0.9500 | Test F1: 0.8729
+2025-03-16 20:31:29,352 - INFO - Random Forest | Train Acc: 1.0000 | Test Acc: 0.9729 | Train F1: 1.0000 | Test F1: 0.8727
+2025-03-16 20:34:21,409 - INFO - Gradient Boosting | Train Acc: 0.9755 | Test Acc: 0.9671 | Train F1: 0.8951 | Test F1: 0.8468
+2025-03-16 20:34:21,592 - INFO - Final model (Naïve Bayes) saved as data/model_building\best_model.pkl
+2025-03-16 20:34:21,592 - INFO - Vectorizer saved as data/model_building\vectorizer.pkl
+2025-03-16 20:34:21,604 - INFO - Performance results saved as data/model_building\performance_results.pkl
+2025-03-16 21:10:41,400 - INFO - Logging setup for model building successfully.
+2025-03-16 21:10:41,616 - INFO - Applied Count vectorization.
+2025-03-16 21:10:43,126 - INFO - Naïve Bayes | Train Acc: 0.9876 | Test Acc: 0.9709 | Train F1: 0.9500 | Test F1: 0.8729
+2025-03-16 21:11:14,733 - INFO - Random Forest | Train Acc: 1.0000 | Test Acc: 0.9729 | Train F1: 1.0000 | Test F1: 0.8727
+2025-03-16 21:14:16,200 - INFO - Gradient Boosting | Train Acc: 0.9755 | Test Acc: 0.9671 | Train F1: 0.8951 | Test F1: 0.8468
+2025-03-16 21:14:16,372 - INFO - Final model (Naïve Bayes) saved as data/model_building\best_model.pkl
+2025-03-16 21:14:16,374 - INFO - Vectorizer saved as data/model_building\vectorizer.pkl
+2025-03-16 21:14:16,374 - INFO - Performance results saved as data/model_building\performance_results.pkl

@@ -1,0 +1,9 @@
+2025-03-07 11:50:11,736 - INFO - Logging setup for feature_engineering successfully.
+2025-03-07 11:50:11,789 - INFO - Loaded cleaned data for EDA.
+2025-03-07 11:51:04,995 - INFO - Logging setup for feature_engineering successfully.
+2025-03-07 11:51:05,020 - INFO - Loaded cleaned data for EDA.
+2025-03-07 11:53:31,897 - INFO - Logging setup for feature_engineering successfully.
+2025-03-07 11:53:31,940 - INFO - Data Loaded Successfully for Data Pre-Processing
+2025-03-07 11:53:36,479 - INFO - Dropped 9 rows where 'Processed_Text' became empty/null after processing.
+2025-03-07 13:07:05,361 - INFO - Logging setup for feature_engineering successfully.
+2025-03-16 19:56:23,257 - INFO - Logging setup for feature_engineering successfully.

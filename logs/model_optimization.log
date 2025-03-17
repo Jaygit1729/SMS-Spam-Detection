@@ -1,0 +1,37 @@
+2025-03-07 11:59:43,532 - INFO - Logging setup for model optimization successfully.
+2025-03-07 11:59:43,533 - INFO - Starting Naïve Bayes model optimization...
+2025-03-07 11:59:44,948 - INFO - Feature selection with k=3000 | F1-score: 0.8852
+2025-03-07 11:59:45,787 - INFO - Feature selection with k=4000 | F1-score: 0.8889
+2025-03-07 11:59:46,622 - INFO - Feature selection with k=5000 | F1-score: 0.8926
+2025-03-07 11:59:46,659 - INFO - Selected best k=5000 with F1-score: 0.8926
+2025-03-07 12:00:00,418 - INFO - Best parameters for Naïve Bayes: {'fit_prior': True, 'alpha': 1}
+2025-03-07 12:00:00,497 - INFO - Optimized Naïve Bayes | Accuracy: 0.9748 | Precision: 0.9076 | Recall: 0.8780 | F1-score: 0.8926
+2025-03-07 12:00:00,577 - INFO - Optimized Naïve Bayes model, vectorizer, and parameters saved successfully.
+2025-03-07 12:11:26,549 - INFO - Logging setup for model optimization successfully.
+2025-03-07 12:11:26,559 - INFO - Starting Naïve Bayes model optimization...
+2025-03-07 12:11:27,528 - INFO - Feature selection with k=3000 | F1-score: 0.8852
+2025-03-07 12:11:28,261 - INFO - Feature selection with k=4000 | F1-score: 0.8889
+2025-03-07 12:11:29,112 - INFO - Feature selection with k=5000 | F1-score: 0.8926
+2025-03-07 12:11:29,148 - INFO - Selected best k=5000 with F1-score: 0.8926
+2025-03-07 12:11:43,148 - INFO - Best parameters for Naïve Bayes: {'fit_prior': True, 'alpha': 1}
+2025-03-07 12:11:43,233 - INFO - Optimized Naïve Bayes | Accuracy: 0.9748 | Precision: 0.9076 | Recall: 0.8780 | F1-score: 0.8926
+2025-03-07 12:11:43,313 - INFO - Optimized Naïve Bayes model, vectorizer, and parameters saved successfully.
+2025-03-07 12:52:30,820 - INFO - Logging setup for model optimization successfully.
+2025-03-07 12:52:30,820 - INFO - Starting Naïve Bayes model optimization...
+2025-03-07 12:52:47,789 - INFO - Best parameters for Naïve Bayes: {'fit_prior': True, 'alpha': 0.5}
+2025-03-07 12:52:47,867 - INFO - Optimized Naïve Bayes | Accuracy: 0.9554 | Precision: 0.7692 | Recall: 0.8943 | F1-score: 0.8271
+2025-03-07 12:52:47,934 - INFO - Optimized Naïve Bayes model, vectorizer, and parameters saved successfully.
+2025-03-07 12:53:22,769 - INFO - Logging setup for model optimization successfully.
+2025-03-07 12:53:22,769 - INFO - Starting Naïve Bayes model optimization...
+2025-03-07 12:53:35,814 - INFO - Best parameters for Naïve Bayes: {'fit_prior': True, 'class_prior': [0.8736, 0.1264], 'alpha': 2}
+2025-03-07 12:53:35,853 - INFO - Optimized Naïve Bayes | Accuracy: 0.9690 | Precision: 0.8699 | Recall: 0.8699 | F1-score: 0.8699
+2025-03-07 12:53:35,919 - INFO - Optimized Naïve Bayes model, vectorizer, and parameters saved successfully.
+2025-03-07 12:57:05,769 - INFO - Logging setup for model optimization successfully.
+2025-03-07 12:57:05,769 - INFO - Starting Naïve Bayes model optimization...
+2025-03-07 12:57:06,717 - INFO - Feature selection with k=3000 | F1-score: 0.8852
+2025-03-07 12:57:07,384 - INFO - Feature selection with k=4000 | F1-score: 0.8889
+2025-03-07 12:57:08,185 - INFO - Feature selection with k=5000 | F1-score: 0.8926
+2025-03-07 12:57:08,209 - INFO - Selected best k=5000 with F1-score: 0.8926
+2025-03-07 12:57:22,067 - INFO - Best parameters for Naïve Bayes: {'fit_prior': True, 'alpha': 1}
+2025-03-07 12:57:22,151 - INFO - Optimized Naïve Bayes | Accuracy: 0.9748 | Precision: 0.9076 | Recall: 0.8780 | F1-score: 0.8926
+2025-03-07 12:57:22,201 - INFO - Optimized Naïve Bayes model, vectorizer, and parameters saved successfully.
