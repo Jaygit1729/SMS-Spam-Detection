@@ -1,5 +1,9 @@
 📱 SMS Spam Classifier
 
+![SMS Spam Image](https://github.com/user-attachments/assets/13ee7be9-54a7-4c83-a4eb-f09d138e6f13)
+
+
+
 🚀 About this Project
 
 This project involves building an SMS Spam Classifier using Natural Language Processing (NLP) and Machine Learning techniques. The goal is to accurately distinguish between spam and non-spam messages, achieving high precision and recall.
