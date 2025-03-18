@@ -114,9 +114,13 @@ Selected feature set
 The developed SMS spam classifier:
 
 ✅ High F1 Score: Differentiates spam vs ham messages effectively.
+
 ✅ Best Model: Naive Bayes proved to be the most efficient performer.
+
 ✅ Handles large features: Each word is a feature — thousands of features handled smoothly.
+
 ✅ Resilient to irrelevant data: Performance remains strong despite noise.
+
 ✅ Fast training & prediction times: Even with large datasets.
 
 ⚡ Why Naive Bayes?
