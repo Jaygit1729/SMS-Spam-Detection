@@ -1,140 +1,133 @@
-**About this project**
+📱 SMS Spam Classifier
 
-**SMS-Spam-Classifier:**
- 
+🚀 About this Project
 
-This project involves building an SMS spam classifier using NLP and Machine Learning techniques. The classifier accurately distinguishes between spam and non-spam messages, achieving high precision and recall.
- 
-**About Dataset:**
- 
+This project involves building an SMS Spam Classifier using Natural Language Processing (NLP) and Machine Learning techniques. The goal is to accurately distinguish between spam and non-spam messages, achieving high precision and recall.
 
-The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains SMS messages in English of 5,574 messages, tagged as ham (legitimate) or spam. 
- 
+📊 About the Dataset
 
-The files contain one message per line. Each line is composed by two columns: v1 contains the label (ham or spam) and v2 contains the raw text.
- 
+The SMS Spam Collection is a dataset containing 5,574 English messages labeled as either ham (legitimate) or spam. Each line has:
 
-This corpus has been collected from free or free for research sources at the Internet.
- 
+v1: Label (ham or spam)
 
-**Methodology:**
- 
+v2: Raw message text
 
-**1. Data Ingestions and Cleaning**
- 
+This dataset was gathered from publicly available sources for research purposes.
 
-The SMS Spam Collection Dataset from Kaggle was used for this project.
- 
+🛠️ Methodology
 
-The dataset contains 5,572 messages with 5 columns.
- 
+1️⃣ Data Ingestion and Cleaning
 
-Irrelevant columns (Unnamed: 2, Unnamed: 3, Unnamed: 4) were removed.
- 
+Dataset: SMS Spam Collection from Kaggle.
 
-Duplicates (403) were dropped from the dataset.
- 
+Contains 5,572 messages with 5 columns.
 
-The dataset contained no null values, ensuring data integrity.
- 
+Removed: Unnecessary columns (Unnamed: 2, Unnamed: 3, Unnamed: 4).
 
-**2. Feature Engineering and Analysis:**
- 
+Duplicates: Dropped 403 duplicates.
 
-Three New Features has been created to find out : A)  Number of characters in each SMS B) Number of words in each SMS and C) Number of sentences in each SMS
- 
+Null values: None found, ensuring data integrity.
 
-Statistical summaries revealed insights on message length distribution and other aspects of the data.
- 
+2️⃣ Feature Engineering and Analysis
 
-**3. EDA and Data Visualization**
- 
+New Features Created:
 
-The value counts of target categories ('ham' and 'spam') were calculated.
- 
+📌 Number of characters per message
 
-The distribution of target categories showed that 87.37% were 'ham' messages and 12.63% were 'spam' messages.
- 
+📌 Number of words per message
 
-KDE Plot revealed the presence of skewness for number of characters and number of sentences in both categories.
- 
+📌 Number of sentences per message
 
-Generates a heatmap for the correlation matrix to see the relationship of features with each other.
- 
+- Statistical analysis provided insights into message length distributions and patterns.
 
-**4. Data Preprocessing**
- 
+3️⃣ Exploratory Data Analysis (EDA)
 
-Text preprocessing techniques such as lower casing, tokenization, removing special characters, stopword removal, and stemming were applied to the messages.
- 
+📌 Target category counts:
 
-Transforms the target column: 'ham' → 0, 'spam' → 1.
- 
+87.37% 'ham' messages
 
-Generates a word frequency scatter plot for spam or ham messages to see the frequently occuring word in a corpus.
- 
+12.63% 'spam' messages
 
-**5. Text Vectorization Using Count Vectorization**
- 
+📌 KDE Plot: Revealed skewness in message length and sentence count between categories.
 
-Count vectorization was performed on both the training and test sets to convert text data into numerical form.
- 
+📌 Heatmap: Correlation matrix to uncover feature relationships.
 
-A total of 6708 features were generated using Count Vectorization. 
- 
-**6. Model Building and Evaluation**
- 
+4️⃣ Data Preprocessing
 
-The data was split into training and test sets in a 80:20 ratio.
- 
+ Applied text preprocessing techniques:
 
-Created Naive Bayes as a base model and two other model were also implemented to compare the performance of the model. Naive Bayes Classifier demonstrated excellent performance with balanced F1-Score & Precision.
- 
+🔹 Lowercasing
 
-Saved the Final model and Vectorizer for future use.
- 
+🔹 Tokenization
 
-**7. Model Optimization and Saving**
- 
+🔹 Special characters removal
 
-Performs feature selection using the chi-square test.
- 
+🔹 Stopword removal
 
-Optimizes Naïve Bayes using RandomizedSearchCV.
- 
+🔹 Stemming
 
-Evaluates model performance on the test set.
- 
+- Transformed target labels: 'ham' → 0, 'spam' → 1
+- Generated word frequency scatter plots for spam vs ham messages.
 
-Saves:
-Optimized Naive Bayes model was saved using the joblib library.
-Selected feature set.
- 
- 
+5️⃣ Text Vectorization (Count Vectorizer)
 
-**8. Streamlit App **
- 
+Count Vectorizer: Converted text into numerical format.
 
-Developed a Streamlit web application to enable real-time SMS spam classification for new messages.
+Generated: 6,708 features from the messages.
 
- 
+6️⃣ Model Building and Evaluation
 
-**Conclusion**
- 
+- Split data: 80:20 ratio (training : test)
 
-In conclusion, the developed SMS spam classifier successfully differentiates between spam and ham messages with high accuracy and precision. The Naive Bayes Classifier emerged as the best-performing model, providing consistent results on both training and test data. This project showcases the effectiveness of NLP techniques and machine learning algorithms in tackling text classification tasks.
- 
+- Models built:
 
-One of the major advantages that Naive Bayes has over other classification algorithms is its ability to handle an extremely large number of features. In our case, each word is treated as a feature and there are thousands of different words. Also, it performs well even with the presence of irrelevant features and is relatively unaffected by them.
- 
+Naive Bayes (base model)
 
-The other major advantage it has is its relative simplicity. Naive Bayes' works well right out of the box and tuning it's parameters is rarely ever necessary, except usually in cases where the distribution of the data is known.
- 
+Two additional models for performance comparison
 
-It rarely ever overfits the data.
- 
+🏅 Naive Bayes Classifier emerged as the best performer with balanced F1-Score & Precision.
 
-Another important advantage is that its model training and prediction times are very fast for the amount of data it can handle.
- 
+✔️ Saved: Final model and vectorizer for future use.
 
-Demo Link : https://sms-spam-detection-ml.streamlit.app/
+7️⃣ Model Optimization and Saving
+
+Feature selection: Chi-square test
+
+Hyperparameter tuning: RandomizedSearchCV
+
+Final evaluation: Performance checked on test set
+
+💾 Saved:
+
+Optimized Naive Bayes model (via joblib)
+
+Selected feature set
+
+8️⃣ Streamlit Web App
+
+✨ Built an interactive Streamlit web application for real-time SMS spam classification. Users can input messages and get instant classification results.
+
+🔗 Live Demo Link
+
+🎉 Conclusion
+
+The developed SMS spam classifier:
+
+✅ High F1 Score: Differentiates spam vs ham messages effectively.
+✅ Best Model: Naive Bayes proved to be the most efficient performer.
+✅ Handles large features: Each word is a feature — thousands of features handled smoothly.
+✅ Resilient to irrelevant data: Performance remains strong despite noise.
+✅ Fast training & prediction times: Even with large datasets.
+
+⚡ Why Naive Bayes?
+
+Simplicity: Works right out of the box.
+
+Minimal tuning needed: Rarely requires hyperparameter adjustments.
+
+Avoids overfitting: Performs consistently.
+
+Handles high-dimensional data: Perfect for text classification.
+
+🚀 Happy Classifying!
+
