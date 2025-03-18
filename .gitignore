@@ -2,9 +2,6 @@
 env/
 venv/
 
-# Ignore logs
-logs/
-*.log
 
 # Ignore compiled Python files
 __pycache__/
