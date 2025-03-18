@@ -107,7 +107,7 @@ Selected feature set
 
 ✨ Built an interactive Streamlit web application for real-time SMS spam classification. Users can input messages and get instant classification results.
 
-🔗 Live Demo Link
+🔗 [Live Demo Link] - https://sms-spam-detection-ml.streamlit.app/
 
 🎉 Conclusion
 
